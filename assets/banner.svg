@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Glowing Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="1" stroke-opacity="0.3"/>
+    </pattern>
+
+    <!-- Dynamic Glow Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="brightGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <style>
+      @keyframes pulse {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.8; transform: scale(1.05); }
+      }
+      @keyframes floatLine {
+        0% { stroke-dashoffset: 1000; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes wave {
+        0% { d: path("M 0 320 Q 300 280 600 320 T 1200 320 L 1200 400 L 0 400 Z"); }
+        50% { d: path("M 0 320 Q 300 350 600 300 T 1200 330 L 1200 400 L 0 400 Z"); }
+        100% { d: path("M 0 320 Q 300 280 600 320 T 1200 320 L 1200 400 L 0 400 Z"); }
+      }
+      .bg-grid { animation: pulse 6s ease-in-out infinite; }
+      .data-wave { animation: wave 8s ease-in-out infinite; }
+      .glowing-node { animation: pulse 3s ease-in-out infinite; }
+      .title-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; }
+      .sub-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGrad)" />
+  <rect width="1200" height="400" fill="url(#grid)" class="bg-grid" />
+
+  <!-- Ambient Dynamic Shapes (Background elements) -->
+  <circle cx="150" cy="100" r="180" fill="#4f46e5" opacity="0.15" filter="url(#brightGlow)" />
+  <circle cx="1050" cy="300" r="200" fill="#ec4899" opacity="0.12" filter="url(#brightGlow)" />
+
+  <!-- Monitoring Chart Pulse Lines (Dynamic background decor) -->
+  <path d="M 50 280 Q 200 220 350 270 T 650 230 T 950 290 L 1150 210" fill="none" stroke="url(#accentGrad)" stroke-width="3" opacity="0.5" filter="url(#glow)"/>
+  <path d="M 50 310 Q 250 260 450 330 T 750 270 T 1050 320 L 1150 280" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.4" stroke-dasharray="8 6"/>
+
+  <!-- Glowing Graph Nodes -->
+  <circle cx="350" cy="270" r="6" fill="#a855f7" class="glowing-node" filter="url(#glow)"/>
+  <circle cx="650" cy="230" r="7" fill="#ec4899" class="glowing-node" filter="url(#glow)"/>
+  <circle cx="950" cy="290" r="6" fill="#38bdf8" class="glowing-node" filter="url(#glow)"/>
+
+  <!-- Foreground Pill Tag -->
+  <g transform="translate(600, 75)">
+    <rect x="-140" y="-18" width="280" height="36" rx="18" fill="#1e293b" stroke="url(#accentGrad)" stroke-width="2" filter="url(#glow)" />
+    <text x="0" y="5" text-anchor="middle" fill="#38bdf8" class="sub-text" font-size="14" letter-spacing="2">🤖 MLOPS &amp; LLM OBSERVABILITY</text>
+  </g>
+
+  <!-- Title & Subtitle (Always in Crisp Foreground) -->
+  <text x="600" y="165" text-anchor="middle" fill="#ffffff" class="title-text" font-size="52" letter-spacing="-1" filter="url(#glow)">
+    Awesome AI Model Monitoring
+  </text>
+  
+  <text x="600" y="215" text-anchor="middle" fill="#94a3b8" class="sub-text" font-size="20">
+    Curated List of SaaS Platforms &amp; Open-Source Tools for Production AI Health
+  </text>
+
+  <!-- Feature Pill Badges in Banner -->
+  <g transform="translate(600, 280)">
+    <!-- Pill 1: Data & Concept Drift -->
+    <g transform="translate(-270, 0)">
+      <rect x="-90" y="-16" width="180" height="32" rx="16" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+      <text x="0" y="5" text-anchor="middle" fill="#e2e8f0" class="sub-text" font-size="13">📉 Drift Detection</text>
+    </g>
+
+    <!-- Pill 2: Performance Tracking -->
+    <g transform="translate(-90, 0)">
+      <rect x="-80" y="-16" width="160" height="32" rx="16" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+      <text x="0" y="5" text-anchor="middle" fill="#e2e8f0" class="sub-text" font-size="13">⚡ Performance</text>
+    </g>
+
+    <!-- Pill 3: LLM Observability -->
+    <g transform="translate(80, 0)">
+      <rect x="-80" y="-16" width="160" height="32" rx="16" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+      <text x="0" y="5" text-anchor="middle" fill="#e2e8f0" class="sub-text" font-size="13">🔍 LLM Evals</text>
+    </g>
+
+    <!-- Pill 4: Production Guardrails -->
+    <g transform="translate(260, 0)">
+      <rect x="-90" y="-16" width="180" height="32" rx="16" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+      <text x="0" y="5" text-anchor="middle" fill="#e2e8f0" class="sub-text" font-size="13">🛡️ Guardrails</text>
+    </g>
+  </g>
+
+  <!-- Bottom Glowing Edge -->
+  <rect x="0" y="394" width="1200" height="6" fill="url(#accentGrad)"/>
+</svg>
