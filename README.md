@@ -50,48 +50,48 @@ Below is the comparative breakdown of commercial SaaS platforms for production M
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated list of leading open-source frameworks for ML validation, data drift detection, and LLM evaluation, sorted by **GitHub Star Count (descending)**.
+Curated list of leading open-source frameworks for ML validation, data drift detection, and LLM evaluation, sorted by **GitHub Stars_Count (descending)**.
 
-1. **[MLflow](https://github.com/mlflow/mlflow)** [![GitHub stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers)  
+1. **[MLflow](https://github.com/mlflow/mlflow)** [![GitHub_Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers)  
    📦 Open-source platform for the complete machine learning lifecycle, including experiment tracking, model registry, and production metric logging.
 
-2. **[Ragas](https://github.com/explodinggradients/ragas)** [![GitHub stars](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&color=white)](https://github.com/explodinggradients/ragas/stargazers)  
+2. **[Ragas](https://github.com/explodinggradients/ragas)** [![GitHub_Stars](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&color=white)](https://github.com/explodinggradients/ragas/stargazers)  
    🎯 Evaluation framework for Retrieval-Augmented Generation (RAG) pipelines and LLM applications providing continuous metric scoring.
 
-3. **[Great Expectations](https://github.com/great-expectations/great_expectations)** [![GitHub stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social&color=white)](https://github.com/great-expectations/great_expectations/stargazers)  
+3. **[Great Expectations](https://github.com/great-expectations/great_expectations)** [![GitHub_Stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social&color=white)](https://github.com/great-expectations/great_expectations/stargazers)  
    🧪 Leading open-source library for data validation, automated data profiling, and pipeline monitoring before model ingestion.
 
-4. **[Cleanlab](https://github.com/cleanlab/cleanlab)** [![GitHub stars](https://img.shields.io/github/stars/cleanlab/cleanlab?style=social&color=white)](https://github.com/cleanlab/cleanlab/stargazers)  
+4. **[Cleanlab](https://github.com/cleanlab/cleanlab)** [![GitHub_Stars](https://img.shields.io/github/stars/cleanlab/cleanlab?style=social&color=white)](https://github.com/cleanlab/cleanlab/stargazers)  
    🧹 Data-centric AI framework for automatically detecting dataset errors, label noise, and out-of-distribution inputs in ML systems.
 
-5. **[Arize Phoenix](https://github.com/arize-ai/phoenix)** [![GitHub stars](https://img.shields.io/github/stars/arize-ai/phoenix?style=social&color=white)](https://github.com/arize-ai/phoenix/stargazers)  
+5. **[Arize Phoenix](https://github.com/arize-ai/phoenix)** [![GitHub_Stars](https://img.shields.io/github/stars/arize-ai/phoenix?style=social&color=white)](https://github.com/arize-ai/phoenix/stargazers)  
    🔥 AI observability and evaluation library designed for tracing, benchmarking, and visual debugging of LLMs, RAG, and agentic workflows.
 
-6. **[Evidently](https://github.com/evidentlyai/evidently)** [![GitHub stars](https://img.shields.io/github/stars/evidentlyai/evidently?style=social&color=white)](https://github.com/evidentlyai/evidently/stargazers)  
+6. **[Evidently](https://github.com/evidentlyai/evidently)** [![GitHub_Stars](https://img.shields.io/github/stars/evidentlyai/evidently?style=social&color=white)](https://github.com/evidentlyai/evidently/stargazers)  
    📊 Leading open-source ML and LLM observability framework featuring 100+ metrics for data drift, quality, and self-hosted monitoring UI.
 
-7. **[River](https://github.com/online-ml/river)** [![GitHub stars](https://img.shields.io/github/stars/online-ml/river?style=social&color=white)](https://github.com/online-ml/river/stargazers)  
+7. **[River](https://github.com/online-ml/river)** [![GitHub_Stars](https://img.shields.io/github/stars/online-ml/river?style=social&color=white)](https://github.com/online-ml/river/stargazers)  
    🌊 Dynamic Python library for online machine learning, concept drift detection, and streaming data analysis in production.
 
-8. **[Giskard](https://github.com/giskard-ai/giskard)** [![GitHub stars](https://img.shields.io/github/stars/giskard-ai/giskard?style=social&color=white)](https://github.com/giskard-ai/giskard/stargazers)  
+8. **[Giskard](https://github.com/giskard-ai/giskard)** [![GitHub_Stars](https://img.shields.io/github/stars/giskard-ai/giskard?style=social&color=white)](https://github.com/giskard-ai/giskard/stargazers)  
    🛡️ Open-source evaluation and testing toolkit for AI models (LLMs & ML) to detect vulnerabilities, hallucinations, and performance degradation.
 
-9. **[Deepchecks](https://github.com/deepchecks/deepchecks)** [![GitHub stars](https://img.shields.io/github/stars/deepchecks/deepchecks?style=social&color=white)](https://github.com/deepchecks/deepchecks/stargazers)  
+9. **[Deepchecks](https://github.com/deepchecks/deepchecks)** [![GitHub_Stars](https://img.shields.io/github/stars/deepchecks/deepchecks?style=social&color=white)](https://github.com/deepchecks/deepchecks/stargazers)  
    ✅ Continuous validation and monitoring suite for tabular, NLP, and vision models across training, staging, and production environments.
 
-10. **[TruLens](https://github.com/truera/trulens)** [![GitHub stars](https://img.shields.io/github/stars/truera/trulens?style=social&color=white)](https://github.com/truera/trulens/stargazers)  
+10. **[TruLens](https://github.com/truera/trulens)** [![GitHub_Stars](https://img.shields.io/github/stars/truera/trulens?style=social&color=white)](https://github.com/truera/trulens/stargazers)  
     🔬 Instrumentation and evaluation tool for LLM applications and RAG feedback loops utilizing the RAG Triad framework.
 
-11. **[WhyLogs](https://github.com/whylabs/whylogs)** [![GitHub stars](https://img.shields.io/github/stars/whylabs/whylogs?style=social&color=white)](https://github.com/whylabs/whylogs/stargazers)  
+11. **[WhyLogs](https://github.com/whylabs/whylogs)** [![GitHub_Stars](https://img.shields.io/github/stars/whylabs/whylogs?style=social&color=white)](https://github.com/whylabs/whylogs/stargazers)  
     📉 Lightweight, privacy-preserving data logging library for tracking statistical profiles, data drift, and quality over time.
 
-12. **[Alibi Detect](https://github.com/SeldonIO/alibi-detect)** [![GitHub stars](https://img.shields.io/github/stars/SeldonIO/alibi-detect?style=social&color=white)](https://github.com/SeldonIO/alibi-detect/stargazers)  
+12. **[Alibi Detect](https://github.com/SeldonIO/alibi-detect)** [![GitHub_Stars](https://img.shields.io/github/stars/SeldonIO/alibi-detect?style=social&color=white)](https://github.com/SeldonIO/alibi-detect/stargazers)  
     🔍 Algorithms for outlier, adversarial, and concept drift detection across tabular, image, text, and time-series model deployments.
 
-13. **[NannyML](https://github.com/NannyML/nannyml)** [![GitHub stars](https://img.shields.io/github/stars/NannyML/nannyml?style=social&color=white)](https://github.com/NannyML/nannyml/stargazers)  
+13. **[NannyML](https://github.com/NannyML/nannyml)** [![GitHub_Stars](https://img.shields.io/github/stars/NannyML/nannyml?style=social&color=white)](https://github.com/NannyML/nannyml/stargazers)  
     🔮 Post-deployment ML performance estimation library that computes performance metrics even when ground truth labels are missing or delayed.
 
-14. **[LangKit](https://github.com/whylabs/langkit)** [![GitHub stars](https://img.shields.io/github/stars/whylabs/langkit?style=social&color=white)](https://github.com/whylabs/langkit/stargazers)  
+14. **[LangKit](https://github.com/whylabs/langkit)** [![GitHub_Stars](https://img.shields.io/github/stars/whylabs/langkit?style=social&color=white)](https://github.com/whylabs/langkit/stargazers)  
     🔤 Open-source text metrics library designed for monitoring LLM prompts, toxicity, sentiment, and structural quality.
 
 ---
