@@ -93,6 +93,8 @@ Curated list of leading open-source frameworks for ML validation, data drift det
 
 14. **[LangKit](https://github.com/whylabs/langkit)** [![GitHub_Stars](https://img.shields.io/github/stars/whylabs/langkit?style=social&color=white)](https://github.com/whylabs/langkit/stargazers)  
     🔤 Open-source text metrics library designed for monitoring LLM prompts, toxicity, sentiment, and structural quality.
+15. **[OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor)** [![GitHub_Stars](https://img.shields.io/github/stars/flik2002/openclaw-monitor?style=social&color=white)](https://github.com/flik2002/openclaw-monitor/stargazers)  
+    🦞 Open-source monitoring dashboard for OpenClaw AI agents: token usage, session tracking, 7-day trends, and multi-model support with a Vue 3 + ECharts web UI.
 
 ---
 
